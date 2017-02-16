@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "82526128-4524-7241-a8be-237610287c2b",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "82526128-4524-7241-a8be-237610287c2b" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "82526128-4524-7241-a8be-237610287c2b" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A95238CB-7DA0-45F5-AF01-E95F1F3D17E2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "82526128-4524-7241-a8be-237610287c2b" : "03-Wrigey_IOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SugarFight",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SugarFight-v31_0902_更改popView的window为强引用\/SugarFight.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/218.244.138.206\/svn\/Wrigey_IOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "82526128-4524-7241-a8be-237610287c2b"
+    }
+  ]
+}

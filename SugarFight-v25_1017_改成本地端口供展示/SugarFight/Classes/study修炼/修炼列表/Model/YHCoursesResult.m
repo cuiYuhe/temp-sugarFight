@@ -1,0 +1,16 @@
+//
+//  YHCoursesResult.m
+//  SugarFight
+//
+//  Created by Cui yuhe on 16/7/6.
+//  Copyright © 2016年 Cui yuhe. All rights reserved.
+//
+
+#import "YHCoursesResult.h"
+
+@implementation YHCoursesResult
+
++ (NSDictionary *)mj_objectClassInArray{
+    return @{ @"courses" : [YHCourseModel class]};
+}
+@end

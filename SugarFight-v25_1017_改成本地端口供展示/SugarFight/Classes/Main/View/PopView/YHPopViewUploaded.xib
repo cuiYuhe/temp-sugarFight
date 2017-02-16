@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ASJ-6C-Ntp" userLabel="ChangePwdView" customClass="YHPopViewUploaded">
+            <rect key="frame" x="0.0" y="0.0" width="265" height="83"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="upload_popbox" translatesAutoresizingMaskIntoConstraints="NO" id="A1P-qe-lIW">
+                    <rect key="frame" x="0.0" y="0.0" width="265" height="83"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zqL-L6-v73">
+                    <rect key="frame" x="147" y="44" width="73" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="2y6-mp-dyb"/>
+                        <constraint firstAttribute="width" constant="73" id="b0r-lz-Gqu"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="bt-sure"/>
+                    <connections>
+                        <action selector="cfmAction:" destination="ASJ-6C-Ntp" eventType="touchUpInside" id="m2g-CR-DP0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="A1P-qe-lIW" firstAttribute="leading" secondItem="ASJ-6C-Ntp" secondAttribute="leading" id="Fvt-yf-Ajm"/>
+                <constraint firstItem="A1P-qe-lIW" firstAttribute="top" secondItem="ASJ-6C-Ntp" secondAttribute="top" id="gc1-wq-MBJ"/>
+                <constraint firstAttribute="trailing" secondItem="A1P-qe-lIW" secondAttribute="trailing" id="kRB-nD-Q0c"/>
+                <constraint firstAttribute="bottom" secondItem="zqL-L6-v73" secondAttribute="bottom" constant="5" id="lej-9a-1oD"/>
+                <constraint firstAttribute="trailing" secondItem="zqL-L6-v73" secondAttribute="trailing" constant="45" id="ndd-4N-fch"/>
+                <constraint firstAttribute="bottom" secondItem="A1P-qe-lIW" secondAttribute="bottom" id="wjX-kF-QN9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="153.5" y="-60.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bt-sure" width="36" height="17"/>
+        <image name="upload_popbox" width="222" height="72"/>
+    </resources>
+</document>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="IlU-SZ-KIR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Shake Draw Vc-->
+        <scene sceneID="HsP-Rf-gGE">
+            <objects>
+                <viewController id="IlU-SZ-KIR" customClass="YHShakeDrawVc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oEX-zd-8Pk"/>
+                        <viewControllerLayoutGuide type="bottom" id="hgv-GU-xXm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fNI-BM-eEB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="002-y8-aGH" userLabel="back Button">
+                                <rect key="frame" x="5" y="5" width="84" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="P5F-Uh-lf2"/>
+                                    <constraint firstAttribute="width" constant="84" id="fHs-MG-YLh"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="back"/>
+                                <connections>
+                                    <action selector="backAction:" destination="IlU-SZ-KIR" eventType="touchUpInside" id="qa7-FX-zxW"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="open_box" translatesAutoresizingMaskIntoConstraints="NO" id="nga-iD-bZZ">
+                                <rect key="frame" x="62" y="464" width="250" height="183"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nga-iD-bZZ" secondAttribute="height" multiplier="352:258" id="1CZ-uy-jVj"/>
+                                    <constraint firstAttribute="width" secondItem="nga-iD-bZZ" secondAttribute="height" id="27P-cl-bVV"/>
+                                    <constraint firstAttribute="height" constant="100" id="fxi-yr-bwz"/>
+                                    <constraint firstAttribute="width" constant="250" id="kJg-GK-Xta"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="27P-cl-bVV"/>
+                                        <exclude reference="fxi-yr-bwz"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71764705882352942" green="0.52549019607843139" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="nga-iD-bZZ" firstAttribute="centerX" secondItem="fNI-BM-eEB" secondAttribute="centerX" id="9ER-Qm-ptS"/>
+                            <constraint firstItem="002-y8-aGH" firstAttribute="top" secondItem="fNI-BM-eEB" secondAttribute="top" constant="5" id="Gwr-0t-0Qb"/>
+                            <constraint firstItem="hgv-GU-xXm" firstAttribute="top" secondItem="nga-iD-bZZ" secondAttribute="bottom" constant="20" id="u5r-iG-61h"/>
+                            <constraint firstItem="002-y8-aGH" firstAttribute="leading" secondItem="fNI-BM-eEB" secondAttribute="leading" constant="5" id="xO0-RV-G0b"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="openBoxImageView" destination="nga-iD-bZZ" id="z8g-mL-mSV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eup-hG-3o0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="410.5" y="247.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="42" height="24"/>
+        <image name="open_box" width="176" height="129"/>
+    </resources>
+</document>

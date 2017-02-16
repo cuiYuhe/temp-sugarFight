@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/Tool/YHNetworkTool/YHHttpTool.m"
+            timestampString = "498409274.119513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
+            landmarkName = "+sendRequestSyncWithUrlString:parameters:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/Tool/YHNetworkTool/YHHttpTool.m"
+            timestampString = "498409274.119513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
+            landmarkName = "+JSONDictionaryWithData:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+            timestampString = "490951975.821697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "-uploadAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+            timestampString = "490951975.821697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "-uploadAction:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__41-[YHUploadPicPerfectShopVC uploadAction:]_block_invoke.145"
+                  moduleName = "SugarFight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/YuheCui/Documents/00-%E7%AD%96%E7%A0%81%E9%A1%B9%E7%9B%AE/02-%E7%AE%AD%E7%89%8C-%E5%85%A8%E7%B3%96%E4%BA%89%E9%9C%B8/00-project-sugarFight-xcode/02-adHoc/SugarFight-v25_1017_%E6%94%B9%E6%88%90%E6%9C%AC%E5%9C%B0%E7%AB%AF%E5%8F%A3%E4%BE%9B%E5%B1%95%E7%A4%BA/SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+                  timestampString = "508905243.374782"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "251">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_.148"
+                  moduleName = "SugarFight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/YuheCui/Documents/00-%E7%AD%96%E7%A0%81%E9%A1%B9%E7%9B%AE/02-%E7%AE%AD%E7%89%8C-%E5%85%A8%E7%B3%96%E4%BA%89%E9%9C%B8/00-project-sugarFight-xcode/02-adHoc/SugarFight-v25_1017_%E6%94%B9%E6%88%90%E6%9C%AC%E5%9C%B0%E7%AB%AF%E5%8F%A3%E4%BE%9B%E5%B1%95%E7%A4%BA/SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+                  timestampString = "508905243.377699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.149"
+                  moduleName = "SugarFight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/YuheCui/Documents/00-%E7%AD%96%E7%A0%81%E9%A1%B9%E7%9B%AE/02-%E7%AE%AD%E7%89%8C-%E5%85%A8%E7%B3%96%E4%BA%89%E9%9C%B8/00-project-sugarFight-xcode/02-adHoc/SugarFight-v25_1017_%E6%94%B9%E6%88%90%E6%9C%AC%E5%9C%B0%E7%AB%AF%E5%8F%A3%E4%BE%9B%E5%B1%95%E7%A4%BA/SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+                  timestampString = "508905243.381269"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+            timestampString = "490951975.821697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "-addPicAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+            timestampString = "490951975.821697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "-uploadAction:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__41-[YHUploadPicPerfectShopVC uploadAction:]_block_invoke_2"
+                  moduleName = "SugarFight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/YuheCui/Documents/00-%E7%AD%96%E7%A0%81%E9%A1%B9%E7%9B%AE/02-%E7%AE%AD%E7%89%8C-%E5%85%A8%E7%B3%96%E4%BA%89%E9%9C%B8/00-project-sugarFight-xcode/02-adHoc/SugarFight-v25_1017_%E6%94%B9%E6%88%90%E6%9C%AC%E5%9C%B0%E7%AB%AF%E5%8F%A3%E4%BE%9B%E5%B1%95%E7%A4%BA/SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+                  timestampString = "508905243.397158"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "465">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__41-[YHUploadPicPerfectShopVC uploadAction:]_block_invoke_3"
+                  moduleName = "SugarFight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/YuheCui/Documents/00-%E7%AD%96%E7%A0%81%E9%A1%B9%E7%9B%AE/02-%E7%AE%AD%E7%89%8C-%E5%85%A8%E7%B3%96%E4%BA%89%E9%9C%B8/00-project-sugarFight-xcode/02-adHoc/SugarFight-v25_1017_%E6%94%B9%E6%88%90%E6%9C%AC%E5%9C%B0%E7%AB%AF%E5%8F%A3%E4%BE%9B%E5%B1%95%E7%A4%BA/SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+                  timestampString = "508905243.400781"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+            timestampString = "490951975.821697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "-uploadAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+            timestampString = "490951975.821697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "-uploadAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+            timestampString = "490951975.821697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "-uploadAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/SugarFight/SugarFightDistrict&#x5927;&#x533a;&#x7528;&#x6237;/Controller/YHSugarFightDistrict.m"
+            timestampString = "487642830.129681"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "-loadCurrentDistrictInfo"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/SugarFight/SugarFightNotWS/Controller/YHSugarFightNotWSVC.m"
+            timestampString = "494393004.086672"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "-thisPAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/SugarFight/SugarFightVip&#x5176;&#x5b83;&#x975e;&#x666e;&#x901a;/Controller/YHSugarFightProvinceAndCityVC.m"
+            timestampString = "494382979.320274"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "-loadFocusTop10"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/DistrictDetail/Controller/YHDistrictDetailVC.m"
+            timestampString = "494504590.763019"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/Tool/YHNetworkTool/YHHttpTool.m"
+            timestampString = "498409274.119513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "+checkSyncMd5IsExist:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+            timestampString = "490868744.2737"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "-uploadAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+            timestampString = "490868744.2737"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "-uploadAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/UploadPic/UploadPicPerfectShop/Controller/YHUploadPicPerfectShopVC.m"
+            timestampString = "490951975.821697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "-uploadAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/UploadPic/UploadPicPride/Controller/YHUploadPicPrideVC.m"
+            timestampString = "494231836.425454"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "-uploadAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/UploadPic/UploadPicPride/Controller/YHUploadPicPrideVC.m"
+            timestampString = "494231836.425454"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "-uploadAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/Game&#x627e;&#x832c;,&#x9009;&#x5bf9;&#x9519;/ChooseTF&#x9009;&#x5bf9;&#x9519;/Controller/YHChooseTFVC.m"
+            timestampString = "492079953.226529"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "-accuseAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/CommentsList/View/YHCommentCell.m"
+            timestampString = "492079996.388233"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "-accuseClicked:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/Tool/AccusationTool&#x4e3e;&#x62a5;/YHAccusationToolDelegateObj.m"
+            timestampString = "492082429.699491"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-accusationToolActionDidFinishAccusationOtherText:accusationCause:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/System/AppDelegate.m"
+            timestampString = "494382979.320274"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "-jumpToTriggeredVcByAps:remotePushM:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/SeeUploadedPics&#x67e5;&#x770b;&#x4e0a;&#x4f20;&#x8fc7;&#x7684;&#x56fe;&#x7247;/PrideUploadedPic&#x4e0a;&#x4f20;&#x7684;&#x56fe;&#x7247;/Controller/YHSeePrideUploadedVC.m"
+            timestampString = "494230659.473722"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "-shiftPicAction:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/SugarFight/CommonSugarFight&#x5171;&#x7528;/Controller/YHSugarFightHomeVc.m"
+            timestampString = "494391032.094353"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/PrizeList&#x5956;&#x54c1;&#x5217;&#x8868;/Controller/YHShakeDrawVc.m"
+            timestampString = "494409447.967368"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "-setupFailShakeView"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/Tool/YHNetworkTool/YHHttpTool.m"
+            timestampString = "498409274.119513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-setTestBaseUrl:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/Login/Controller/YHLoginVC.m"
+            timestampString = "494474936.866325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "-loginWithName:pwd:success:failed:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/Login/Controller/YHLoginVC.m"
+            timestampString = "494474948.022653"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "-loginWithName:pwd:success:failed:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/Game&#x627e;&#x832c;,&#x9009;&#x5bf9;&#x9519;/CommenOfGame/View/YHHelpDesView.m"
+            timestampString = "494493518.320836"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "-dismiss"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SugarFight/Classes/DistrictDetail/Controller/YHDistrictDetailVC.m"
+            timestampString = "494504590.763019"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "-loadDistrictInfo"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

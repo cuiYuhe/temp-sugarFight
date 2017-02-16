@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="YHStudyInsideExerciseCell" rowHeight="302" id="KGk-i7-Jjw" customClass="YHStudyInsideExerciseCell">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="302"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="403" height="301"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="除此，赵云于平定益州时引霍去病故事劝谏刘备将田宅归还百姓" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYk-Fg-nqC">
+                        <rect key="frame" x="30" y="5" width="373" height="34"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EOG-WL-EOJ" userLabel="选项1 View">
+                        <rect key="frame" x="30" y="49" width="373" height="17"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJz-Ib-XmJ" userLabel="A">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="30e-EF-f9M"/>
+                                    <constraint firstAttribute="height" constant="20" id="Kha-tS-saa"/>
+                                </constraints>
+                                <state key="normal" image="radio_unselected"/>
+                                <state key="selected" image="radio_selected"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="于建兴七年寿终正寝。景耀四年（公元261年），" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRw-DP-c6U">
+                                <rect key="frame" x="25" y="0.0" width="348" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KRw-DP-c6U" secondAttribute="trailing" id="2Dd-F4-zUK"/>
+                            <constraint firstItem="KRw-DP-c6U" firstAttribute="top" secondItem="EOG-WL-EOJ" secondAttribute="top" id="DqS-nj-OXw"/>
+                            <constraint firstItem="KRw-DP-c6U" firstAttribute="leading" secondItem="aJz-Ib-XmJ" secondAttribute="trailing" constant="5" id="FTQ-wM-IGY"/>
+                            <constraint firstItem="aJz-Ib-XmJ" firstAttribute="top" secondItem="EOG-WL-EOJ" secondAttribute="top" id="Gmt-gX-KXz"/>
+                            <constraint firstAttribute="bottom" secondItem="KRw-DP-c6U" secondAttribute="bottom" id="YEm-DU-yvi"/>
+                            <constraint firstItem="aJz-Ib-XmJ" firstAttribute="leading" secondItem="EOG-WL-EOJ" secondAttribute="leading" id="xh8-9S-bcO"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tsm-9e-Xvu" userLabel="选项2 View">
+                        <rect key="frame" x="30" y="76" width="373" height="17"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9h-5c-ZjZ" userLabel="B">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Ec0-k9-kLb"/>
+                                    <constraint firstAttribute="width" constant="20" id="NuA-bJ-Gjm"/>
+                                </constraints>
+                                <state key="normal" image="radio_unselected"/>
+                                <state key="selected" image="radio_selected"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="于建兴七年寿终正寝。景耀四年（公元261年），" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cjw-9s-Vbc">
+                                <rect key="frame" x="25" y="0.0" width="348" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Cjw-9s-Vbc" firstAttribute="leading" secondItem="O9h-5c-ZjZ" secondAttribute="trailing" constant="5" id="0o8-mV-zNX"/>
+                            <constraint firstItem="Cjw-9s-Vbc" firstAttribute="top" secondItem="Tsm-9e-Xvu" secondAttribute="top" id="5ZJ-yq-LwO"/>
+                            <constraint firstAttribute="trailing" secondItem="Cjw-9s-Vbc" secondAttribute="trailing" id="BrE-oi-mXF"/>
+                            <constraint firstItem="O9h-5c-ZjZ" firstAttribute="leading" secondItem="Tsm-9e-Xvu" secondAttribute="leading" id="FQq-sw-hud"/>
+                            <constraint firstAttribute="bottom" secondItem="Cjw-9s-Vbc" secondAttribute="bottom" id="MXb-bA-1jQ"/>
+                            <constraint firstItem="O9h-5c-ZjZ" firstAttribute="top" secondItem="Tsm-9e-Xvu" secondAttribute="top" id="fH4-zI-rZx"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W3w-LI-Xtd" userLabel="选项3 View">
+                        <rect key="frame" x="30" y="103" width="373" height="34"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6b-ZG-ZCh" userLabel="C">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="CI1-bh-UMh"/>
+                                    <constraint firstAttribute="width" constant="20" id="jMD-Eb-mbb"/>
+                                </constraints>
+                                <state key="normal" image="radio_unselected"/>
+                                <state key="selected" image="radio_selected"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="于建兴七年寿终正寝。景耀四年（公元261年），于建兴七年寿终正寝。景耀四年（公元261年），" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrg-br-XbL">
+                                <rect key="frame" x="25" y="0.0" width="348" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hrg-br-XbL" firstAttribute="top" secondItem="W3w-LI-Xtd" secondAttribute="top" id="51U-XX-fe5"/>
+                            <constraint firstItem="h6b-ZG-ZCh" firstAttribute="leading" secondItem="W3w-LI-Xtd" secondAttribute="leading" id="B7P-1K-pp6"/>
+                            <constraint firstItem="hrg-br-XbL" firstAttribute="leading" secondItem="h6b-ZG-ZCh" secondAttribute="trailing" constant="5" id="ORM-6B-VgB"/>
+                            <constraint firstItem="h6b-ZG-ZCh" firstAttribute="top" secondItem="W3w-LI-Xtd" secondAttribute="top" id="Pco-94-2Y4"/>
+                            <constraint firstAttribute="bottom" secondItem="hrg-br-XbL" secondAttribute="bottom" id="a4K-TD-qxM"/>
+                            <constraint firstAttribute="trailing" secondItem="hrg-br-XbL" secondAttribute="trailing" id="lTM-v2-IdT"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="47D-fc-QSM" userLabel="选项4 View">
+                        <rect key="frame" x="30" y="147" width="373" height="67"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebq-d6-S8q" userLabel="D">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="fcc-ch-7my"/>
+                                    <constraint firstAttribute="width" constant="20" id="kA5-nb-lRt"/>
+                                </constraints>
+                                <state key="normal" image="radio_unselected"/>
+                                <state key="selected" image="radio_selected"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="基本上，珠三角地区的城市，外来人口远远大于本地春节、国庆黄金周，城市都会空了一半以上，，商业从业人员更偏好放假，城市基本呈现一片寂静的状态，旅馆价格也属于淡季水平。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YSy-Uo-rOe">
+                                <rect key="frame" x="25" y="0.0" width="348" height="67"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YSy-Uo-rOe" secondAttribute="trailing" id="4yC-rG-noh"/>
+                            <constraint firstItem="YSy-Uo-rOe" firstAttribute="leading" secondItem="ebq-d6-S8q" secondAttribute="trailing" constant="5" id="DrP-kt-O2H"/>
+                            <constraint firstAttribute="bottom" secondItem="YSy-Uo-rOe" secondAttribute="bottom" id="LUv-Je-U0N"/>
+                            <constraint firstItem="YSy-Uo-rOe" firstAttribute="top" secondItem="47D-fc-QSM" secondAttribute="top" id="a2a-Ai-mbM"/>
+                            <constraint firstItem="ebq-d6-S8q" firstAttribute="leading" secondItem="47D-fc-QSM" secondAttribute="leading" id="fAj-U3-0pD"/>
+                            <constraint firstItem="ebq-d6-S8q" firstAttribute="top" secondItem="47D-fc-QSM" secondAttribute="top" id="frb-P7-p0O"/>
+                        </constraints>
+                    </view>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="true_exercise" translatesAutoresizingMaskIntoConstraints="NO" id="KFb-WD-7IE" userLabel="对还是错">
+                        <rect key="frame" x="353" y="129" width="30" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="DTo-iz-tcM"/>
+                            <constraint firstAttribute="width" constant="30" id="sbY-ye-kJ4"/>
+                        </constraints>
+                    </imageView>
+                    <view alpha="0.59999999999999998" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C5V-UD-1jB" userLabel="分隔线View">
+                        <rect key="frame" x="0.0" y="285" width="403" height="1"/>
+                        <color key="backgroundColor" red="0.019607843137254902" green="0.32549019607843138" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="3" id="0Hg-fk-Yoa"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ont-0T-Glj" userLabel="题目序号">
+                        <rect key="frame" x="0.0" y="5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="Juk-4c-RFg"/>
+                            <constraint firstAttribute="height" constant="20" id="Wm6-1j-xyS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="3" backgroundImage="bg_exercise_No">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25w-bI-0qE" userLabel="答案A">
+                        <rect key="frame" x="0.0" y="35" width="30" height="29"/>
+                        <string key="text">答案:
+A</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="1" green="0.7843137255" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="25w-bI-0qE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="AS7-wb-H6y"/>
+                    <constraint firstAttribute="bottom" secondItem="C5V-UD-1jB" secondAttribute="bottom" id="EQC-B1-3Mu"/>
+                    <constraint firstItem="C5V-UD-1jB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="F0T-Sx-8Rw"/>
+                    <constraint firstAttribute="trailing" secondItem="EOG-WL-EOJ" secondAttribute="trailing" id="GcS-VA-a9l"/>
+                    <constraint firstItem="ont-0T-Glj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="HFj-3H-fIe"/>
+                    <constraint firstItem="EOG-WL-EOJ" firstAttribute="leading" secondItem="25w-bI-0qE" secondAttribute="trailing" id="Kdw-Z6-vqb"/>
+                    <constraint firstAttribute="trailing" secondItem="C5V-UD-1jB" secondAttribute="trailing" id="Lfs-L7-sd9"/>
+                    <constraint firstItem="W3w-LI-Xtd" firstAttribute="leading" secondItem="dYk-Fg-nqC" secondAttribute="leading" id="Lz1-YY-hpb"/>
+                    <constraint firstItem="47D-fc-QSM" firstAttribute="top" secondItem="W3w-LI-Xtd" secondAttribute="bottom" constant="10" id="QFP-Zp-to3"/>
+                    <constraint firstItem="dYk-Fg-nqC" firstAttribute="leading" secondItem="ont-0T-Glj" secondAttribute="trailing" constant="10" id="UmI-9K-agl"/>
+                    <constraint firstItem="W3w-LI-Xtd" firstAttribute="top" secondItem="Tsm-9e-Xvu" secondAttribute="bottom" constant="10" id="XwT-dt-3bM"/>
+                    <constraint firstAttribute="trailing" secondItem="KFb-WD-7IE" secondAttribute="trailing" constant="20" id="ZXF-Sa-K5P"/>
+                    <constraint firstItem="EOG-WL-EOJ" firstAttribute="top" secondItem="dYk-Fg-nqC" secondAttribute="bottom" constant="10" id="gsE-U3-GJF"/>
+                    <constraint firstAttribute="trailing" secondItem="Tsm-9e-Xvu" secondAttribute="trailing" id="hBI-k0-scD"/>
+                    <constraint firstAttribute="trailing" secondItem="W3w-LI-Xtd" secondAttribute="trailing" id="hK7-ti-JHS"/>
+                    <constraint firstItem="EOG-WL-EOJ" firstAttribute="leading" secondItem="dYk-Fg-nqC" secondAttribute="leading" id="iFH-W7-v1h"/>
+                    <constraint firstItem="Tsm-9e-Xvu" firstAttribute="top" secondItem="EOG-WL-EOJ" secondAttribute="bottom" constant="10" id="jLI-75-M2P"/>
+                    <constraint firstItem="ont-0T-Glj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kBo-Dl-Jmr"/>
+                    <constraint firstAttribute="trailing" secondItem="dYk-Fg-nqC" secondAttribute="trailing" id="qsh-4e-z82"/>
+                    <constraint firstItem="Tsm-9e-Xvu" firstAttribute="leading" secondItem="dYk-Fg-nqC" secondAttribute="leading" id="r2F-52-Tmo"/>
+                    <constraint firstItem="KFb-WD-7IE" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="rWj-dx-drm"/>
+                    <constraint firstItem="47D-fc-QSM" firstAttribute="leading" secondItem="dYk-Fg-nqC" secondAttribute="leading" id="riY-vo-8ID"/>
+                    <constraint firstItem="25w-bI-0qE" firstAttribute="top" secondItem="ont-0T-Glj" secondAttribute="bottom" constant="10" id="wGg-fW-XHn"/>
+                    <constraint firstAttribute="trailing" secondItem="47D-fc-QSM" secondAttribute="trailing" id="yAX-Ml-b8F"/>
+                    <constraint firstItem="dYk-Fg-nqC" firstAttribute="top" secondItem="ont-0T-Glj" secondAttribute="top" id="zv2-xf-9fe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="answerABtn" destination="aJz-Ib-XmJ" id="2MZ-yj-zo1"/>
+                <outlet property="answerAView" destination="EOG-WL-EOJ" id="rDn-cz-IKb"/>
+                <outlet property="answerBBtn" destination="O9h-5c-ZjZ" id="q7H-Ov-L5i"/>
+                <outlet property="answerBView" destination="Tsm-9e-Xvu" id="oBP-JN-1iS"/>
+                <outlet property="answerCBtn" destination="h6b-ZG-ZCh" id="k9O-Im-OCb"/>
+                <outlet property="answerCView" destination="W3w-LI-Xtd" id="PdI-7F-eNJ"/>
+                <outlet property="answerDBtn" destination="ebq-d6-S8q" id="eoS-FH-qDp"/>
+                <outlet property="answerDView" destination="47D-fc-QSM" id="eY6-2N-W5l"/>
+                <outlet property="choiceALabel" destination="KRw-DP-c6U" id="fd2-J4-BNs"/>
+                <outlet property="choiceBLabel" destination="Cjw-9s-Vbc" id="VUn-n1-IfK"/>
+                <outlet property="choiceCLabel" destination="hrg-br-XbL" id="sII-UM-DYd"/>
+                <outlet property="choiceDLabel" destination="YSy-Uo-rOe" id="Gjt-Pz-hmg"/>
+                <outlet property="questionDesLabel" destination="dYk-Fg-nqC" id="DFq-U5-Ab4"/>
+                <outlet property="questionNoBtn" destination="ont-0T-Glj" id="udo-Aw-gkw"/>
+                <outlet property="rightAnswerLabel" destination="25w-bI-0qE" id="oFw-DQ-Pxa"/>
+                <outlet property="trueOrFalseImageView" destination="KFb-WD-7IE" id="VhT-h2-WSX"/>
+            </connections>
+            <point key="canvasLocation" x="326.5" y="250"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg_exercise_No" width="17" height="17"/>
+        <image name="radio_selected" width="19" height="19"/>
+        <image name="radio_unselected" width="13" height="14"/>
+        <image name="true_exercise" width="30" height="28"/>
+    </resources>
+</document>

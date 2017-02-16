@@ -1,0 +1,73 @@
+//
+//  SugarFight.pch
+//  SugarFight
+//
+//  Created by Cui yuhe on 16/5/19.
+//  Copyright © 2016年 Cui yuhe. All rights reserved.
+//
+
+
+#define SugarFight_pch
+
+#if __OBJC__
+#import "UIView+Frame.h"
+
+#import "Single.h"
+#import "GlobeSingle.h"
+#import "GlobeConst.h"
+#import <MBProgressHUD.h>
+#import <SVProgressHUD.h>
+#import "MBProgressHUD+YH.h"
+#import <MJExtension/MJExtension.h>
+#import "YHHttpTool.h"
+#import "UIButton+Extension.h"
+#import "YHBaseModel.h"
+#import "NSDictionary+PropertyCode.h" //发布时可移除
+#import "UIViewController+Extension.h"
+#import "YHTitlesResult.h"
+
+
+#define WeakSelf __weak typeof(self) weakSelf = self;
+#define StrongSelf __strong __typeof(self) strongSelf = weakSelf;
+#define YHScreenW [UIScreen mainScreen].bounds.size.width
+#define YHScreenH [UIScreen mainScreen].bounds.size.height
+#define YHrgbColor(r, g, b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1]
+
+#define YHrgbColorWithAlpha(r, g, b, a) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:(a)]
+
+
+#define YHGrayColor(rgb) YHrgbColor((rgb), (rgb), (rgb))
+#define YHGrayColorWithAlpha(rgb, a) YHrgbColorWithAlpha((rgb), (rgb), (rgb), (a))
+
+#define YHRandomColor YHrgbColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256));
+
+//#1481c1
+#define globelColor YHrgbColor(20, 129, 193)
+#define YHAppleBlue YHrgbColor(0, 108, 255)
+#define YHiosVersion(version) [[UIDevice currentDevice].systemVersion doubleValue] >= version
+//字体FZHCJW.tff
+#define YHFontFZHuangCao(fontSize) [UIFont fontWithName:@"FZHuangCao-S09S" size:(fontSize)]
+#define YHFontFZXingKai(fontSize) [UIFont fontWithName:@"FZXingKai-S04S" size:(fontSize)];
+#define YHFontYaHei(fontSize) [UIFont fontWithName:@"Microsoft YaHei" size:(fontSize)];
+
+//苹果审核人员的账户
+#define YHAccountOfApple [[GlobeSingle shareGlobeSingle].loginM.data.user.userName isEqualToString:YHAccountForAppStore]
+
+//自定义日志
+#ifdef DEBUG
+
+#define YHFunc NSLog(@"%s %d \n",__func__,__LINE__);
+//自定义日志
+#define YHLog(...) NSLog(@"%s %d \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__]);
+
+
+#else
+
+#define YHFunc
+#define YHLog(...)
+
+
+#endif
+#endif /* SugarFight_pch */
+
+
